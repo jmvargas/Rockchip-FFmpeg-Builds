@@ -231,7 +231,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-    matrix:
+      matrix:
         target: [linuxarm64]
         variant: [gpl 6.0-rk]  
     steps:
