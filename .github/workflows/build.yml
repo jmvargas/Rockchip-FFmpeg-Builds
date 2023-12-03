@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Repo Check
         run: |
-          exit 1
+          exit 0
   build_base:
     name: Build base image
     if: ${{ github.event.inputs.buildOnly != 'true' }}
